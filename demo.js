@@ -1,9 +1,10 @@
 ics_sources = [
-    //Cross origin policy error running locally, should work from server
-    {url:'https://outlook.office365.com/owa/calendar/7e6c037200a54bbb89870bdf7153444e@utoronto.ca/0222599322974e3a84fb22a53974a24b6817473586409478242/calendar.ics  ',event_properties:{color:'gold'}},
-    //{url:'samples/events-noend.ics',event_properties:{color:'pink'}},
-    //{url:'samples/32c3.ics'},
+    //CORS problem
+    //{url:'https://outlook.office365.com/owa/calendar/7e6c037200a54bbb89870bdf7153444e@utoronto.ca/0222599322974e3a84fb22a53974a24b6817473586409478242/calendar.ics  ',event_properties:{color:'gold'}},
+    //do a cron update instead
+    {url:'./calendar/makerspace.ics'},
     //{url:'samples/daily_recur.ics',event_properties:{className:['daily-recur'], url:'http://recurring.events.example.org/'}}
+    //{url:'samples/events-noend.ics',event_properties:{color:'pink'}},
 ]
 
 
